@@ -1,0 +1,598 @@
+@font-face {
+  font-family: 'sf-bold';
+  src: url('./text/SFPRODISPLAYBOLD.OTF') format('truetype'); /* Update path to match your file location */
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'sf-medium';
+  src: url('./text/SFPRODISPLAYMEDIUM.OTF') format('truetype');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'sf-regular';
+  src: url('./text/SFPRODISPLAYREGULAR.OTF') format('truetype');
+  font-weight: normal;
+}
+body {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  /* Remove default margin */
+  padding: 0;
+  /* Remove default padding */
+  background-color: white;
+  /* Set your background image */
+  background-size: cover;
+  /* Make the image cover the entire viewport */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Fix the the image in background */
+  background-attachment: fixed;
+
+  flex-direction: column;
+}
+
+#nav {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#nav img {
+  height: 100%;
+  width: 120px;
+  margin-left: 50px;
+}
+
+#links {
+  height: 100%;
+  width: 14%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Nexa', sans-serif;
+ 
+                                                
+}
+
+#links a {
+  text-decoration: none;
+  color: rgb(50, 50, 50);
+  font-size: 20px;
+}
+
+
+#links a:hover {
+  font-size: 25px;
+  color: rgb(55, 115, 245);
+}
+
+#register {
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(55, 115, 245);
+  border: 1px solid rgb(55, 115, 245);
+  padding: 5px 12px;
+  border-radius: 50px;
+  font-family: 'sf-medium', sans-serif;
+  transition: all 0.9s ease;
+                                                
+}
+
+#register:hover{
+  background-color: rgb(55, 115, 245);
+  color: white;
+  box-shadow: 0 0 50px 5px rgb(55, 115, 245, 0.6); /* Glow effect */
+  background-color: rgb(55, 115, 245); /* Slightly darker background on hover */
+  
+}
+
+#login {
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(55, 115, 245);
+  border: 1px solid rgb(55, 115, 245);
+  padding: 5px 12px;
+  border-radius: 50px;
+  font-family: 'sf-medium', sans-serif;
+  transition: all 0.9s ease;
+                                                
+}
+
+#login:hover{
+  background-color: rgb(55, 115, 245);
+  color: white;
+  box-shadow: 0 0 50px 5px rgb(55, 115, 245, 0.6); /* Glow effect */
+  background-color: rgb(55, 115, 245); /* Slightly darker background on hover */
+  
+}
+
+
+#main {
+  height: 570px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#main1 {
+  height: 550px;
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#main1 a {
+  text-decoration: none;
+  font-size: 20px;
+  border: 1px solid rgb(55, 115, 245);
+  border-radius: 50px;
+  color: rgb(55, 115, 245);
+  padding: 5px 25px ;
+  margin-right: auto;
+  margin-left: 100px;
+  font-family: 'sf-bold', sans-serif;
+  transition: all 0.9s ease;
+}
+
+#main1 a:hover{
+  background-color: rgb(55, 115, 245);
+  color: white;
+  box-shadow: 0 0 50px 5px rgb(55, 115, 245, 0.6); /* Glow effect */
+  background-color: rgb(55, 115, 245); /* Slightly darker background on hover */
+  
+}
+
+
+
+
+#main1 h2 {
+  font-size: 70px;
+  line-height: 120px;
+  margin: 0;
+  color: rgb(0, 0, 0);
+  margin-left: 100px;
+  font-family: 'sf-bold', sans-serif;
+}
+
+#main1 h1 {
+  font-size: 80px;
+  line-height: 70px;
+  margin: 0;
+  color: rgb(55, 115, 245);
+  margin-left: 100px;
+  font-family: 'sf-bold', sans-serif;
+}
+
+#main1 #p2 {
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  margin-left: 100px;
+  font-family: 'sf-regular', sans-serif;
+}
+
+#main2 {
+  height: 91.6%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#main2 img {
+  height: 90%;
+  width: 80%;
+  transition: all 0.9s ease;
+}
+
+#main2 img:hover{
+  height: 100%;
+  width: 90%;
+}
+
+#termsandconditions{
+  height: 130px;
+  width: 100%;
+  
+  margin-bottom: 50px;
+}
+
+
+
+
+#termsandconditions h1{
+  font-size: 30px;
+  font-family: 'sf-bold', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(55, 115, 245);
+  
+}
+
+  #termsandconditions p{
+    font-family: 'sf-mediu', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    line-height: 20px;
+    margin: 0px 50px;
+    
+  }
+  hr{
+    border: none; /* Remove the default border style */
+    height: 2px; /* Set the thickness */
+    background-color: rgb(55, 115, 245); /* Set the color (orange in this case) */
+    margin: 10px 20px 10px 0px; /* 50px margin from left and right */
+    text-align: center; /* This is optional for positioning */
+  }
+
+  #TCtext2 hr{
+    border: none; /* Remove the default border style */
+    height: 2px; /* Set the thickness */
+    background-color: rgb(55, 115, 245); /* Set the color (orange in this case) */
+    margin: 10px  50px 0px 50px; /* 50px margin from left and right */
+    text-align: center; /* This is optional for positioning */
+  }
+
+  #TCcontent{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #TCcontent2 #TCtext2{
+    height: 100%;
+    width: 100%;
+  }
+  #TCtext2 h3{
+    margin-left: 50px;
+    color:rgb(55, 115, 245);
+    font-family: 'sf-bold', sans-serif;
+  }
+  #TCtext2 p{
+    margin: 0px 50px;
+    line-height: 25px;
+    font-family: 'sf-regular', sans-serif;
+  }
+  
+
+  #TCimg{
+   
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+
+  #TCimg img{
+    height: 80%;
+    width: 75%;
+    transition: all 0.9s ease;
+  }
+
+  #TCimg img:hover{
+    height: 90%;
+    width: 85%;
+   
+  }
+
+  #TCtext{
+    
+    height: 100%;
+    width: 60%;
+    
+  }
+
+  #TCtext h3{
+    font-size: 20px;
+    color: rgb(55, 115, 245);
+    font-family: 'sf-bold', sans-serif;
+    
+  }
+
+  #TCtext p{
+    font-size: 15px;
+    line-height: 20px;
+    font-family: 'sf-regular', sans-serif;
+  }
+ #seemore{
+  text-decoration: none;
+  color: rgb(55, 115, 245);
+  border: 1px solid rgb(55, 115, 245);
+  border-radius: 50px;
+  padding: 7px 20px;
+  margin-top: 50px;
+  transition: all 0.9s ease;
+  font-family: 'sf-bold', sans-serif;
+ }
+
+
+
+ #seemore:hover{
+  background-color: rgb(55, 115, 245);
+  color: white;
+  box-shadow: 0 0 50px 5px rgb(55, 115, 245, 0.6); /* Glow effect */
+  background-color: rgb(55, 115, 245); /* Slightly darker background on hover */
+  
+}
+  #FAQ{
+    font-family: 'sf-bold', sans-serif;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 0.9s ease;
+  }
+
+  #FAQc{
+    font-family: 'sf-bold', sans-serif;
+    
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 0.9s ease;
+  }
+
+  #FAQ h2{
+    font-size: 30px;;
+    color: rgb(55, 115, 245);
+  }
+  #FAQ h3{
+    font-size: 20px;;
+    color: rgb(55, 115, 245);
+    
+  }
+
+  #FAQ p{
+    display: none;
+    font-family: 'sf-medium', sans-serif;
+    font-size: 15px;
+    margin: 0px 200px;
+    text-align: center;
+    overflow: hidden;
+    line-height: 20px;
+  }
+
+  #FAQ h3:hover + p{
+    display: block;
+  }
+
+  #faqbuttons{
+   
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    width: 550px;
+    height: 50px;
+
+  }
+  #faqbuttons a{
+   
+    text-decoration: none;
+  color: rgb(55, 115, 245);
+  border: 1px solid rgb(55, 115, 245);
+  border-radius: 50px;
+  padding: 10px 20px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.9s ease;
+  }
+
+  #faqbuttons a:hover{
+    background-color: rgb(55, 115, 245);
+    color: white;
+    box-shadow: 0 0 50px 5px rgb(55, 115, 245, 0.6); /* Glow effect */
+    background-color: rgb(55, 115, 245); /* Slightly darker background on hover */
+    
+  }
+
+  footer{
+    font-family: 'sf-bold', sans-serif;
+    font-size: 10px;
+    height: 100px;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+
+
+
+/* For medium screens (tablets, smaller desktops) */
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    /* Remove default margin */
+    padding: 0;
+    /* Remove default padding */
+    background-color: white;
+    /* Set your background image */
+    background-size: cover;
+    /* Make the image cover the entire viewport */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    flex-direction: column;
+  }
+
+  #nav {
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #nav img {
+    height: 100%;
+    width: 200px;
+    margin-left: 10px;
+  }
+
+  
+
+  #nav #register {
+    font-size: 30px;
+    padding: 10px 20px;
+  }
+  #nav #login {
+    font-size: 30px;
+    padding: 10px 20px;
+  }
+  
+
+  #main {
+    height: 1700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+  }
+
+  #main1 {
+    height: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #main1 a {
+    text-decoration: none;
+    font-size: 45px;
+    border: 1px solid rgb(55, 115, 245);
+    border-radius: 50px;
+    color: rgb(55, 115, 245);
+    padding: 20px 25px;
+    margin-left: auto;
+    font-family: 'sf-bold', sans-serif;
+                                                
+  }
+
+  #main1 a:active{
+    font-size: 45;
+  }
+
+  #main1 #p1 {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  #main1 h2 {
+    font-size: 100px;
+    line-height: 150px;
+    margin: 0;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  #main1 h1 {
+    font-size: 120px;
+    line-height: 150px;
+    margin: 0;
+    color: rgb(55, 115, 245);
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  #main1 #p2 {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  #main2 {
+    height: 750px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+  }
+
+  #main2 img {
+    height: 100%;
+    width: 90%;
+  }
+
+  #FAQ{
+    margin-top: 10px;  
+  }
+
+  #FAQc{
+    font-family: 'sf-bold', sans-serif;
+    
+    height: 1700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 0.9s ease;
+  }
+  #FAQc #faqbuttons{
+margin-bottom: 1700px;
+  }
+
+
+ 
+  #TCimg {
+    display: none;
+  }
+
+  #TCtext{
+    width: 80%;
+    height: 550px;
+  }
+
+  #TCtext p{
+font-family: 'sf-regular', sans-serif; 
+ }
+
+ #FAQ p{
+  font-family: 'sf-medium',sans-serif;
+ }
+
+ #faqbuttons{
+  padding: 10px 15px;
+ }
+
+ #TCtext2 h3{
+  font-family: 'sf-bold',sans-serif;
+}
+
+#TCtext2 p{
+  font-family: 'sf-regular',sans-serif;
+}
+  
+}
